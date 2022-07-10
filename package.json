@@ -1,0 +1,12 @@
+{
+  "name": "tamago",
+  "version": "1.0.0",
+  "description": "A webcomponent for displaying translated date from one time to another",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rafael Mejia",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
