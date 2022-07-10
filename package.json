@@ -2,10 +2,14 @@
   "name": "tamago",
   "version": "1.0.0",
   "description": "A webcomponent for displaying translated date from one time to another",
-  "main": "index.js",
   "keywords": [],
+  "scripts": {
+    "create-lib": "npx -p typescript tsc --declaration"
+  },
   "author": "Rafael Mejia",
   "license": "ISC",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
   "devDependencies": {
     "typescript": "^4.7.4"
   }
